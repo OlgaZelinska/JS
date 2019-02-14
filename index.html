@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+		<title>Organic</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
+		<script src="functions.js" defer></script>
+		<script src="data.js" defer></script>
+	</head>
+	<body>
+		<header class="top_line">
+			<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+				<a href="#" class="navbar-brand"><img src="http://organicandnatural.com.ua/design/organic-responsive/images/logo-new.png" alt=""></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarCollapse">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+							<a class="nav-link disabled" href="index.html">МАГАЗИН</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link disabled" href="#">ГАЛЕРЕЯ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link disabled" href="#">О НАС</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link disabled" href="#">КОНТАКТЫ</a> 
+						</li>
+						<li class="nav-item"> 
+						</li>  
+					</ul>
+				</div>
+				<form class="form-inline">
+					<input class="form-control mr-sm-2" type="search" placeholder="Поиск" aria-label="Search"  id ="inpSearch">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="btnSearch">Поиск</button>
+				</form>
+				<a href="card.html" >
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="cart"><img src="https://cdn0.iconfinder.com/data/icons/Hand_Drawn_Web_Icon_Set/32/basket_download.png" alt=""></button>
+				<div class="popup" style="display: none;"></div></a>
+			</nav>   
+		</header>
+		<div class="conteiner-fluid">
+			<div class="row p-2 mt-3" >
+				<div class="col-3">
+					<div class="col-12">
+						<div class="p-3 mb-2">
+							<div class="sidebar"> 
+								<h6>Сортировка</h6> 
+								<input type="number" id ="inpFrom" class="m-1" placeholder=" От " >
+								<input type="number" id = "inpbefore" class="m-1" placeholder=" До ">
+								<button id="btnFilter" class="btn btn-outline-success btn-sm m-1" type="submit">Ок</button>
+								<button id="btnSort" class="btn btn-outline-success btn-sm m-1">Отсортировать по алфавиту</button>
+								<button id="btnInStock" class="btn btn-outline-success btn-sm m-1">В наличии</button>
+								<button id="btnNotInStock" class="btn btn-outline-success btn-sm m-1">Отсутствует на складе</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div  class="container">
+					<div class="col-12">
+						<div id="data">   
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="conteiner-fluid">
+			<div class="col-12">
+				<div class="row">
+					<div class="col-12 Banner rounded"><p class="color2 p-3 mb-2  bg-dark text-white"><a href="google.com.ua" >Google</a></p>
+					</div>
+				</div>
+			</div>
+		</div>		
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+	</body>
+</html>
